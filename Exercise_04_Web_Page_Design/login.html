@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Educational Institution | Home</title>
+    <script src="https://cdn.tailwindcss.com" rel="stylesheet"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.5.2/flowbite.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+        .rethink-sans {
+            font-family: "Rethink Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body class="relative rethink-sans">
+    <header class="bg-[#00000f] text-white hidden lg:block">
+        <div class="h-10 px-8 flex items-center justify-between mx-auto max-w-[1450px]">
+            <div class="text-sm">Vignan's IIT | Visakhapatnam</div>
+            <div>
+                <ul class="flex flex-wrap gap-6 text-xs font-medium">
+                    <a href="#" class="hover:bg-white/15 p-3 -m-3">AICTE</a>
+                    <a href="#" class="hover:bg-white/15 p-3 -m-3">UGC</a>
+                    <a href="#" class="hover:bg-white/15 p-3 -m-3">NBA</a>
+                    <a href="#" class="hover:bg-white/15 p-3 -m-3">NAAC</a>
+                    <a href="#" class="hover:bg-white/15 p-3 -m-3">NIRF</a>
+                    <a href="#" class="hover:bg-white/15 p-3 -m-3">e-Gov</a>
+                    <a href="#" class="hover:bg-white/15 p-3 -m-3">ECAP</a>
+                    <a href="#" class="hover:bg-white/15 p-3 -m-3">V-WMS</a>
+                    <a href="#" class="hover:bg-white/15 p-3 -m-3"><span class="text-red-500">*</span> Stakeholders -
+                        feedback</a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="">
+        <div class="min-h-[calc(100dvh-2.5rem)] w-full flex items-center justify-center">
+            <div class="relative w-3/5 h-full hidden lg:block">
+                <img src="./assets/landscape_vignan.png" alt="NIRF Vignan"
+                    class="min-h-[calc(100dvh-2.5rem)] object-right object-cover p-2 rounded-3xl">
+                <div class="absolute bottom-0 text-white p-9">
+                    <div class="text-4xl font-serif font-medium">Vignan Institute of Information Technology</div>
+                </div>
+            </div>
+            <div class="w-full p-8 lg:w-2/5 min-h-[calc(100dvh-2.5rem)] rounded-lg overflow-hidden">
+                <div class="flex items-center gap-2 text-lg mb-6">
+                    <img src="./assets/vignan_logo.png" alt="Vignan Logo" class="w-8">
+                    <span class="font-semibold">Vignan IIT</span>
+                </div>
+                <div class="text-center font-sans font-semibold text-2xl mb-6">Welcome Back</div>
+
+                <div class="flex justify-around border-b border-gray-300 mb-6">
+                    <button
+                        class="py-2 px-4 text-gray-600 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none"
+                        onclick="selectRole('student')">Student</button>
+                    <button
+                        class="py-2 px-4 text-gray-600 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none"
+                        onclick="selectRole('faculty')">Faculty</button>
+                    <button
+                        class="py-2 px-4 text-gray-600 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none"
+                        onclick="selectRole('alumni')">Alumni</button>
+                    <button
+                        class="py-2 px-4 text-gray-600 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none"
+                        onclick="selectRole('parent')">Parent</button>
+                </div>
+                <div class="flex items-center justify-center my-20">
+                    <form action="#" method="POST" class="space-y-8 w-[80%]">
+                        <div>
+                            <label for="email" class="block text-gray-600">Email</label>
+                            <input type="email" id="email" name="email"
+                                class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-violet-200"
+                                placeholder="Enter your email">
+                        </div>
+                        <div>
+                            <label for="password" class="block text-gray-600">Password</label>
+                            <input type="password" id="password" name="password"
+                                class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-violet-200"
+                                placeholder="Enter your password">
+                        </div>
+
+                        <!-- Remember Me and Forgot Password Links -->
+                        <div class="flex items-center justify-between">
+                            <label class="inline-flex items-center">
+                                <input type="checkbox" class="form-checkbox text-indigo-600">
+                                <span class="ml-2 text-gray-600">Remember Me</span>
+                            </label>
+                            <a href="#" class="text-sm text-indigo-600 hover:underline">Forgot Password?</a>
+                        </div>
+
+                        <!-- Login Button -->
+                        <div class="mt-4">
+                            <button type="submit"
+                                class="w-full bg-indigo-600 text-white py-2 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">Login</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="text-center mt-6">
+                    <p class="text-gray-600 text-sm">
+                        Don't have an account?
+                        <a href="#" class="text-indigo-600 hover:underline">Sign Up</a>
+                    </p>
+                    <div class="flex items-center justify-center mt-4 space-x-4">
+                        <a href="#" class="text-gray-500 text-sm hover:underline">Terms of Service</a>
+                        <a href="#" class="text-gray-500 text-sm hover:underline">Privacy Policy</a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
