@@ -1,22 +1,16 @@
 # Exercise 3
 
-## Student Academic Info
-
+<h2>Student Academic Info</h2>
 <div align="center">
-
-![Student Academic Info](./screenshots/student_academics_info.png)
+    <img src="./screenshots/student_academics_info.png" alt="Student Academic Info">
 </div>
 
-## Training and Placement Details
-
+<h2>Training and Placement Details</h2>
 <div align="center">
-
-![Training and Placement Details](./screenshots/t&p_details.png)
+    <img src="./screenshots/t&p_details.png" alt="Training and Placement Details">
 </div>
 
-## Student Chapters
-
+<h2>Student Chapters</h2>
 <div align="center">
-
-![Student Chapters](./screenshots/student_chapters.png)
+    <img src="./screenshots/student_chapters.png" alt="Student Chapters">
 </div>
