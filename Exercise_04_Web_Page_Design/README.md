@@ -1,8 +1,6 @@
 # Exercise 1
 
-## Login Page
-
+<h2>Login Page</h2>
 <div align="center">
-
-![Login Page](./screenshots/login_page.png)
+    <img src="./screenshots/login_page.png" alt="Login Page">
 </div>
