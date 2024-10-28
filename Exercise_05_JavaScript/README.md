@@ -1,15 +1,11 @@
 # Exercise 1
 
-## Login Page
-
+<h2>Login Page</h2>
 <div align="center">
-
-![Login Page](./screenshots/login_page.png)
+    <img src="./screenshots/login_page.png" alt="Login Page">
 </div>
 
-## Registration Page
-
+<h2>Registration Page</h2>
 <div align="center">
-
-![Registration Page](./screenshots/registration_page.png)
+    <img src="./screenshots/registration_page.png" alt="Registration Page">
 </div>
