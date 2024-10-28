@@ -1,15 +1,11 @@
 # Exercise 2
 
-## Departments Faculty Details Page
-
+<h2>Departments Faculty Details Page</h2>
 <div align="center">
-
-![Departments Faculty Details Page](./screenshots/faculty_details.png)
+    <img src="./screenshots/faculty_details.png" alt="Departments Faculty Details Page">
 </div>
 
-## Student Personal Info placement Staff Details Page
-
+<h2>Student Personal Info Placement Staff Details Page</h2>
 <div align="center">
-
-![Student Personal Info placement Staff Details Page](./screenshots/student_info.png)
+    <img src="./screenshots/student_info.png" alt="Student Personal Info Placement Staff Details Page">
 </div>
