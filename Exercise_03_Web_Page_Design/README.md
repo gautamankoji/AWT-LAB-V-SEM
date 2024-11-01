@@ -1,9 +1,9 @@
 # Exercise 3
 
-<div>Table of Contents</div>
-<a href"#1">Student Academic Info</a>
-<a href"#2">Training and Placement Details</a>
-<a href"#3">Student Chapters</a>
+**Table of Contents**
+[Student Academic Info](#1)
+[Training and Placement Details](#2)
+[Student Chapters](#3)
 
 <h2 id="1">Student Academic Info</h2>
 <div align="center">
