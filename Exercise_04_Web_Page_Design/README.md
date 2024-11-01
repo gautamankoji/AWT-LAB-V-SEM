@@ -1,7 +1,7 @@
 # Exercise 1
 
-<div>Table of Contents</div>
-<a href"#1">Login Page</a>
+**Table of Contents**
+[Login Page](#1)
 
 <h2 id="1">Login Page</h2>
 <div align="center">
