@@ -1,10 +1,14 @@
 # Exercise 1
 
-<div>Table of Contents</div>
-<a href"#1">Home Page</a>
-<a href"#2">Login Page</a>
-<a href"#3">Registration Page</a>
-<a href"#4">About Institution Page</a>
+**Table of Contents**
+
+[Home Page](#1)
+
+[Login Page](#2)
+
+[Registration Page](#3)
+
+[About Institution Page](#4)
 
 <h2 id="1">Home Page</h2>
 <div align="center">
