@@ -1,8 +1,8 @@
 # Exercise 1
 
-<div>Table of Contents</div>
-<a href"#1">Login Page</a>
-<a href"#2">Registration Page</a>
+**Table of Contents**
+[Login Page](#1)
+[Registration Page](#2)
 
 <h2 id="1">Login Page</h2>
 <div align="center">
