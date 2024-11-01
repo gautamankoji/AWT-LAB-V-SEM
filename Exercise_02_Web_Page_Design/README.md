@@ -1,8 +1,8 @@
 # Exercise 2
 
-<div>Table of Contents</div>
-<a href"#1">Departments Faculty Details Page</a>
-<a href"#2">Student Personal Info Placement Staff Details Page</a>
+**Table of Contents**
+[Departments Faculty Details Page](#1)
+[Student Personal Info Placement Staff Details Page](#2)
 
 <h2 id="1">Departments Faculty Details Page</h2>
 <div align="center">
